@@ -119,9 +119,9 @@ textSize(20);
       reset();
       touches = []
     }
-    drawSprites()
+    
   }
-  
+  drawSprites()
 }
 function spawnBlueGhosts(){
     if (frameCount % 60 === 0) {
