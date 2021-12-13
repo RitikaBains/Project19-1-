@@ -59,7 +59,7 @@ pinkGhostgroup = new Group();
 }
 
 function draw() {
-background("white")
+background(backgroundImg)
 textSize(20);
   fill("black")
   text("Score: "+ score,30,50);
